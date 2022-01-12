@@ -89,6 +89,7 @@ p {
    background-color: rgba(255, 242, 0, 0.582);
    position: sticky; /* can you get the box to stick? */
    top: 0;
+   z-index: 1;
 }
 
 /* BEGIN NOTES SECTION STYLING */
@@ -96,6 +97,7 @@ p {
 #notes-sec {
    margin-top: 10px;
    z-index: 0;
+   height: 1000px;
 }
 #notes-div {
    font-size: 12px;
